@@ -7,7 +7,7 @@
 header {
   max-width: 371px;
   width: 100%;
-  height: 139px;
+  /* height: 139px; */
   margin-top: 57px;
   margin-left: 144px;
   margin-bottom: 57px;
@@ -50,7 +50,7 @@ h1 {
 .leftside {
   max-width: 756px;
   width: 100%;
-  height: 298px;
+  /* height: 298px; */
   margin-right: 20px;
 }
 
@@ -105,7 +105,7 @@ input[type="submit"] {
 .contactsSection {
   max-width: 997px;
   width: 100%;
-  height: 157px;
+  /* height: 157px; */
   margin-bottom: 74px;
   margin-left: 210px;
   display: flex;
@@ -115,7 +115,7 @@ input[type="submit"] {
 .contactsSection .contactdiv {
   max-width: 226px;
   width: 100%;
-  height: 157px;
+  /* height: 157px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,35 +134,58 @@ input[type="submit"] {
 }
 
 i {
-    scale: 2.5;
+  scale: 2.5;
 }
 
-h5{
-    color: #4E4D54;
-    font-family: Helvetica;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 16px;
-    margin-bottom: 8px;
+h5 {
+  color: #4e4d54;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
-.contactp{
-    color: #99999A;
-    font-family: Helvetica;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.contactp {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.contactdiv :nth-child(3){
-    margin-bottom: 8px;
+.contactdiv :nth-child(3) {
+  margin-bottom: 8px;
 }
 
-.title{
-    max-width: 548px;
+.title {
+  max-width: 548px;
+  width: 100%;
+  margin-bottom: 53px;
+  margin-left: 144px;
+}
+
+.picturesSection {
+  max-width: 1318px;
+  width: 100%;
+  /* height: 373px; */
+  margin-bottom: 39px;
+  margin-left: 61px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 373px;
+  height: 373px;
+  flex-shrink: 0;
+}
+
+footer{
+    background-color: #000;
     width: 100%;
-    margin-left: 144px;
+    padding: ;
 }
