@@ -74,7 +74,7 @@ textarea {
 input[type="text"] {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background: #f8f8f8;
-  max-width: 370px;
+  /* max-width: 370px; */
   width: 100%;
   padding: 19px;
   margin-bottom: 20px;
@@ -83,7 +83,7 @@ input[type="text"] {
 input[type="email"] {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background: #f8f8f8;
-  max-width: 370px;
+  /* max-width: 370px; */
   width: 100%;
   padding: 19px;
   margin-bottom: 25px;
@@ -97,13 +97,13 @@ input[type="submit"] {
   font-weight: 700;
   line-height: normal;
   background: #5968f4;
-  max-width: 370px;
+  /* max-width: 370px; */
   width: 100%;
   padding: 21px 167px;
 }
 
 .contactsSection {
-  max-width: 997px;
+  max-width: 1000px;
   width: 100%;
   /* height: 157px; */
   margin-bottom: 74px;
@@ -157,10 +157,6 @@ h5 {
   line-height: normal;
 }
 
-.contactdiv :nth-child(3) {
-  margin-bottom: 8px;
-}
-
 .title {
   max-width: 548px;
   width: 100%;
@@ -172,6 +168,7 @@ h5 {
   max-width: 1318px;
   width: 100%;
   /* height: 373px; */
+  margin-right: 61px;
   margin-bottom: 39px;
   margin-left: 61px;
   display: flex;
@@ -188,7 +185,16 @@ footer {
   background-color: #000;
   width: 100%;
   /* padding: 63px 176px 111px 143px; */
-  padding: 63px 390px 111px 340px;
+  padding-top: 63px;
+
+  /* padding-right: 390px; */
+  padding-right: 10%;
+
+  padding-bottom: 111px;
+
+  /* padding-left: 340px; */
+  padding-left: 10%;
+
   display: flex;
   justify-content: space-between;
 }
@@ -252,36 +258,35 @@ a {
   margin-bottom: 9px;
 }
 
-.footerDiv_3{
-    width: 92px;
-    height: 160px;
-    display: flex;
-    flex-direction: column;
+.footerDiv_3 {
+  width: 92px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
 }
 
-.footerDiv_4{
-    width: 241px;
+.footerDiv_4 {
+  width: 241px;
 }
 
-.footerDiv_4>div{
-    display: flex;
-    margin-bottom: 18px;
+.footerDiv_4 > div {
+  display: flex;
+  margin-bottom: 18px;
 }
-
 
 footer i {
-    scale: 1;
-    width: 21px;
-    height: 15px;
-    flex-shrink: 0;
-    margin-right: 14px;
+  scale: 1;
+  width: 21px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-right: 14px;
 }
 
-h4{
-    color: #FFF;
-    font-family: Helvetica;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+h4 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

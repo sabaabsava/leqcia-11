@@ -1,0 +1,94 @@
+
+@media screen and (max-width: 1000px) {
+    header {
+        margin-left: 80px;
+    }
+    
+    .formsection{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .formsection {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .leftside {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .rightside {
+        max-width: 756px;
+        width: 100%;
+    }
+    
+    .contactsSection {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 144px;
+        /* width: 700px; */
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    section>.title{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+  .picturesSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  footer > .footerDiv_1,
+  .footerDiv_2,
+  .footerDiv_3,
+  .footerDiv_4 {
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  footer > .footerDiv_2 {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-right: 2px white solid;
+    width: 128px;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  * {
+    size: 200px;
+  }
+}
